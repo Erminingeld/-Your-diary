@@ -41,7 +41,7 @@ def new_topic(request):
             new_topic.save()
             form.save()
             return redirect('learning_logs:topics')
-    # Вывеси пустую или недействительную форму.
+    # Вывести пустую или недействительную форму.
     context = {'form': form}
     return render(request, 'learning_logs/new_topic.html', context)
 
