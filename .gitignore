@@ -1,6 +1,6 @@
 __pycache__/
 
-app.db
+db.sqlite3
 
 *.pyc
 notes/
